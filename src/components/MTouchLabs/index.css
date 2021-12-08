@@ -1,0 +1,460 @@
+.top-container {
+  background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1638891770/tmlab_uhqjaz.png');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.dots-img {
+  align-self: flex-end;
+
+  height: 200px;
+  width: 200px;
+}
+.img-container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.company-description {
+  display: flex;
+  flex-direction: row;
+}
+.heading-appstore-container {
+  margin-left: 10%;
+}
+.company-description-heading {
+  color: #404040;
+  margin-bottom: 20px;
+  font-family: 'italic';
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.round-img-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+.round-img {
+  width: 600px;
+  height: 600px;
+}
+
+.dots-img1 {
+  align-self: flex-end;
+  margin-left: 30px;
+  height: 200px;
+  width: 200px;
+}
+
+.app-store-container {
+  width: 60%;
+  height: 12%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10%;
+  background-color: #ff0000;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.google-play {
+  width: 50px;
+  height: 50px;
+}
+.available-container {
+  margin-left: 30px;
+}
+.available-p {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 15px;
+}
+.play-heading {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 25px;
+}
+.about-us-container {
+  background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1638942690/indured_ucxchp.png');
+  height: 100vh;
+  width: 700px;
+}
+
+.request-free-consultation {
+  background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1638959451/indulast_pkawfw.png');
+  height: 120vh;
+  width: 90%;
+}
+
+.about-us-card {
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+  margin-left: 30px;
+  margin-bottom: 20%;
+}
+
+.about-us-img {
+  width: 600px;
+  height: 600px;
+}
+.half-circle {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.half-circle1 {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.dots {
+  margin-bottom: 10%;
+}
+.about-us-description-para {
+  color: gray;
+  line-height: 2;
+  font-size: 24px;
+  font-family: 'Bree serif';
+}
+.about-us-description {
+  margin-left: 30px;
+  margin-top: 10%;
+  width: 100%;
+}
+.full-circle-container {
+  width: 90%;
+
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 0px;
+}
+
+.full-circle {
+  align-self: flex-start;
+  margin-left: 30%;
+}
+
+.full-circle-container1 {
+  width: 85%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.form-card {
+  margin-top: 30px;
+  background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-shadow: 6px 6px 8px 6px #888888;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-heading {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: 600;
+  color: #404040;
+}
+
+.input-container {
+  width: 80%;
+  border: 1px solid #000099;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.input-el {
+  border: none;
+  width: 90%;
+  color: #404040;
+  font-family: 'Courier New';
+  font-size: 23px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.submit-btn {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 2%;
+  background-color: #ff0000;
+  border-radius: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Georgia;
+  font-size: 25px;
+  border-width: 0px;
+}
+.footer {
+  background-color: #000099;
+  width: 90%;
+  margin-top: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.bottom-first {
+  width: 20%;
+}
+.social-media-heading {
+  font-family: 'Arial';
+  font-size: 23px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 2;
+}
+
+.content-inside-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social-media-icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.h-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+}
+.h-container1 {
+  font-family: 'Arial';
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.s-m-1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.navigate-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
+}
+.navigate-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .top-container {
+    background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1638884102/mtlabbluebg_ufaxa0.svg');
+    max-width: 640px;
+    width: 100%;
+    height: 80vh;
+  }
+  .company-description {
+    max-width: 363px;
+  }
+  .about-us-container {
+    background-image: url('https://res.cloudinary.com/dmd5feuh9/image/upload/v1638942690/indured_ucxchp.png');
+    width: 100%;
+    max-width: 340px;
+    height: 50vh;
+  }
+  .request-free-consultation {
+    height: 120vh;
+  }
+  .dots-img {
+    height: 100px;
+    width: 150px;
+  }
+  .about-us-description {
+    margin-left: 5px;
+  }
+  .company-description-heading {
+    font-size: 20px;
+  }
+  .dots {
+    width: 100px;
+    height: 100px;
+  }
+  .dots-img1 {
+    height: 0px;
+    width: 0px;
+    display: none;
+  }
+
+  .round-img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-us-img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-us-card {
+    width: 100%;
+    margin-left: 5px;
+  }
+  .app-store-container {
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .half-circle {
+    width: 15px;
+    height: 15px;
+  }
+  .diamond {
+    width: 15px;
+    height: 15px;
+  }
+  .half-circle1 {
+    width: 15px;
+    height: 15px;
+  }
+  .about-us-description-para {
+    font-size: 10px;
+  }
+  .google-play {
+    width: 20px;
+    height: 20px;
+  }
+  .available-p {
+    font-size: 8px;
+  }
+  .play-heading {
+    font-size: 10px;
+  }
+  .form-card {
+    height: 50%;
+  }
+  .form-heading {
+    font-size: 15px;
+  }
+  .input-container {
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .social-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+  .s-m-1 {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .input-el {
+    border: none;
+    width: 90%;
+    color: #404040;
+    font-family: 'Courier New';
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 400;
+  }
+  .submit-btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 2%;
+    background-color: #ff0000;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 15px;
+    border-width: 0px;
+  }
+  .footer {
+    background-color: #000099;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .bottom-first {
+    width: 20%;
+  }
+  .social-media-heading {
+    font-size: 13px;
+  }
+  .h-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+  }
+  .h-container1 {
+    font-size: 20px;
+  }
+  .navigate-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+  }
+}
+
+.service-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
